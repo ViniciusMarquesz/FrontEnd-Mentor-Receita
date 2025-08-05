@@ -1,0 +1,153 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+}
+
+body {
+  background-color: hsl(30, 54%, 90%);
+  font-family: 'Outfit', sans-serif;
+  color: hsl(24, 5%, 18%);
+  line-height: 1.6;
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.container {
+  background-color: white;
+  max-width: 650px;
+  border-radius: 15px;
+  padding: 2rem;
+}
+
+h1 {
+  font-family: 'Young Serif', serif;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.descricao {
+  margin-bottom: 2rem;
+}
+
+.preparacao {
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.preparacao h2 {
+  color: hsl(332, 51%, 32%);
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.preparacao ul  {
+  margin-left: 1.5rem;
+  font-size: 0.9rem;
+}
+
+.preparacao ul li {
+  padding-left: 0.5rem;
+  
+}
+
+.preparacao ul li::marker {
+  color: #854632;
+}
+
+h2 {
+  color: hsl(14, 45%, 36%);
+  font-size: 1.5rem;
+  margin: 0.5rem;
+ 
+}
+
+.conteudo {
+  font-size: 0.9rem;
+}
+
+.conteudo ul {
+  margin-left: 1.5rem;
+}
+
+.conteudo ol {
+  margin-left: 1rem;
+}
+
+.conteudo li,
+.conteudo ol {
+  padding-left: 0.5rem;
+}
+
+.conteudo ul li::marker,
+.conteudo ol li::marker {
+  color: #854632;
+  font-weight: bold;
+}
+
+
+.borda { 
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+  padding-bottom: 1.5rem;
+  margin-bottom: 2rem; 
+}
+
+.nutricao {
+  padding-top: 1.5rem;
+}
+
+.nutricao h2 {
+  color: hsl(14, 45%, 36%);
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.nutricao p {
+  margin-bottom: 1.5rem;
+  color: hsl(30, 10%, 34%);
+  font-size: 1rem;
+  margin-left: 0.5rem;
+}
+
+.tabela-nutricao {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tabela-nutricao td {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+  font-size: 1rem;
+}
+
+.tabela-nutricao tr:last-child td {
+  border-bottom: none;
+}
+
+.linha {
+  position: relative;
+}
+
+.tipo {
+  color: hsl(30, 10%, 34%);
+  text-align: left;
+}
+
+.valor {
+  color: hsl(332, 51%, 32%);
+  font-weight: bold;
+  position: absolute;
+  left: 240px;
+  min-width: 60px;
+  text-align: left;
+}
