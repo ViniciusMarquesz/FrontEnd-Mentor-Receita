@@ -20,7 +20,7 @@ A página apresenta uma imagem de receita, título, descrição, tempo de prepar
 ##  Tecnologias Utilizadas
 
 - HTML5 semântico  
-- CSS3 (Flexbox, Grid e responsividade)  
+- CSS3 (Flexbox e responsividade)  
 
 ---
 
